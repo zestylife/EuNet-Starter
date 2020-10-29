@@ -87,6 +87,13 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.zestylife.eunet": {
+      "version": "https://github.com/zestylife/EuNet.git?path=src/EuNet.Unity/Assets/Plugins/EuNet",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "becbe81b2510f2f3452177d6a09e0b4cfbe551c5"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
