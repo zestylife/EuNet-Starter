@@ -1,1 +1,5 @@
-# EuNet C# (.NET, .NET Core, Unity)
+# EuNet - Starter
+
+## Screenshot
+![image](https://github.com/zestylife/EuNet-Starter/blob/master/Starter.gif)
+
