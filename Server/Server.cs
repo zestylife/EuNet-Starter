@@ -37,7 +37,12 @@ namespace StarterServer
             };
 
             // 로거 팩토리를 생성
-            var loggerFactory = new ConsoleLoggerFactory();
+            var loggerFactory = DefaultLoggerFactory.Create(builder =>
+            {
+                builder.SetMinimumLevel(LogLevel.Information);
+                builder.AddConsoleLogger();
+            });
+
             var statistics = new NetStatistic();
 
             // UserSession 을 사용하기 위해서 팩토리를 만듬
@@ -45,8 +50,8 @@ namespace StarterServer
                 serverOption,
                 loggerFactory,
                 statistics,
-                (sessionId, tcpChannel, udpChannel) => {
-                    return new UserSession(sessionId, tcpChannel, udpChannel);
+                createInfo => {
+                    return new UserSession(createInfo);
                 });
 
             // 서버를 생성
