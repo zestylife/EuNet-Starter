@@ -5,7 +5,8 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="EuNet.CodeGenerator.Templates" Version="1.1.0" />
+    <PackageReference Include="EuNet.CodeGenerator.Templates" Version="1.1.5" />
+    <PackageReference Include="EuNet.UnityShims" Version="1.1.5" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">

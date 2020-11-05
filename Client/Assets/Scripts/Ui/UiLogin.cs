@@ -23,11 +23,14 @@ public class UiLogin : MonoBehaviour
         try
         {
             _loginButton.interactable = false;
-            var result = await NetP2pUnity.Instance.ConnectAsync(TimeSpan.FromSeconds(10));
+
+            var client = NetClientGlobal.Instance.Client;
+
+            var result = await client.ConnectAsync(TimeSpan.FromSeconds(10));
 
             if (result == true)
             {
-                LoginRpc loginRpc = new LoginRpc(NetP2pUnity.Instance.Client);
+                LoginRpc loginRpc = new LoginRpc(client);
                 var loginResult = await loginRpc.Login(SystemInfo.deviceUniqueIdentifier);
 
                 Debug.Log($"Login Result : {loginResult}");
