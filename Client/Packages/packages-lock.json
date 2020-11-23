@@ -81,11 +81,11 @@
       }
     },
     "com.zestylife.eunet": {
-      "version": "https://github.com/zestylife/EuNet.git?path=src/EuNet.Unity/Assets/Plugins/EuNet#1.1.11",
+      "version": "https://github.com/zestylife/EuNet.git?path=src/EuNet.Unity/Assets/Plugins/EuNet#1.1.12",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "9dc307719abc0b07e81401e077e6440e9067788a"
+      "hash": "69103e03b385d5f805acd287822f3045c8fa4a85"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

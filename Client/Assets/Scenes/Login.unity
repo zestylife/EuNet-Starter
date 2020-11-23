@@ -534,12 +534,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isDontDestroyOnLoad: 1
   LogLevel: 3
-  ServerAddress: 127.0.0.1
+  ServerAddress: 220.120.190.48
   TcpServerPort: 12000
+  IsCheckAlive: 0
+  CheckAliveInterval: 30000
+  CheckAliveTimeout: 50000
   UdpServerPort: 12001
   PingInterval: 1000
   MtuInterval: 1100
   RudpDisconnectTimeout: 5000
+  SyncType: 0
+  SyncInterval: 0.1
 --- !u!114 &1283901517
 MonoBehaviour:
   m_ObjectHideFlags: 0

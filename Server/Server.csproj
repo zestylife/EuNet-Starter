@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EuNet" Version="1.1.11" />
+    <PackageReference Include="EuNet" Version="1.1.12" />
   </ItemGroup>
 
   <ItemGroup>
