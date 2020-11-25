@@ -38,7 +38,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -81,11 +81,11 @@
       }
     },
     "com.zestylife.eunet": {
-      "version": "https://github.com/zestylife/EuNet.git?path=src/EuNet.Unity/Assets/Plugins/EuNet#1.1.12",
+      "version": "https://github.com/zestylife/EuNet.git?path=src/EuNet.Unity/Assets/Plugins/EuNet#1.1.16",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "69103e03b385d5f805acd287822f3045c8fa4a85"
+      "hash": "d75728ccd6749fe312123b527a7420e3f6943ec5"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
