@@ -221,6 +221,7 @@ MonoBehaviour:
   _precisionForQuaternionSync: 0.1
   _limitForPositionSqrtSync: 100
   _limitForRotationSync: 90
+  _defaultSyncTime: 0.1
 --- !u!4 &463111638
 Transform:
   m_ObjectHideFlags: 0
@@ -534,7 +535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isDontDestroyOnLoad: 1
   LogLevel: 3
-  ServerAddress: 220.120.190.48
+  ServerAddress: 127.0.0.1
   TcpServerPort: 12000
   IsCheckAlive: 0
   CheckAliveInterval: 30000
